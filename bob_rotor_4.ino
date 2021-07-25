@@ -1,12 +1,11 @@
 
-
-
 /*
   
-  FastBob's Rotor Controller V3
+  FastBob's Rotor Controller V3.2
+  
   Initially based on the Leamington_G-2800DXA code.
 
-  Bob Bownes July 10, 2021
+  Copyright Bob Bownes July 10, 2021
 
   Converted to run on Pro Micro
   
@@ -42,11 +41,11 @@
   7) Make tolerant of 2 digit heading input
   8) clean up display routine to add leading zero
   9) Clean up the relay code to fully remove the L/R relays from the K commands
-  10) re-enable calibration switch
-  
-  
-  
-   
+  10) re-enable calibration switch - Bypassed it in SW to avoid opening the box again
+  11) Review BRAKE code to control rotors with brakes
+  12) Write OS X Client
+  13) Write TCP/IP client
+         
 */
 
 #include <LCD_I2C.h>
