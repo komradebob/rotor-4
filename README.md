@@ -1,7 +1,7 @@
 # rotor-4
 Arduino Nano based GS-232 rotor controller
 
-Control a G-{800,1000,2800}DXA rotor via an RS232 port. Initially basedon the Lemington G-2800 code, but most of it is long gone, outside of the calibration routines. 
+Control a G-{800,1000,2800}DXA rotor via an RS232 port. Initially based on the Lemington G-2800 code, but most of it is long gone, outside of the calibration routines. 
 
 Hook up your rotor to the output of a 2n222 connected to the output pins of the Nano, one pin for speed control, and off you go. 
 
